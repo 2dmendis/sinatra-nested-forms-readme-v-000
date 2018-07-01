@@ -3,9 +3,9 @@ class Course
   
   COURSES = [] 
   
-  def initialize(arg)
-    @name = arg[:name]
-    @topic = arg[:topic]
+  def initialize(args)
+    @name = args[:name]
+    @topic = args[:topic]
     COURSES << self 
   end 
   
